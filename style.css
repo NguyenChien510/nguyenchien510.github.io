@@ -1,0 +1,102 @@
+body{
+    background-image: url(/5524203_Windows_11_Wallpaper_12.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+input{
+    padding: 3px;
+    border-radius: 10px;
+    border-width: 3.5px;
+    border-color:pink;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#ND{
+    margin-right: 37px;
+}
+
+@-webkit-keyframes my {
+    0% {
+      color: #ff0000;
+    } 
+    50% {
+      color: #ffffff;
+    } 
+    100% {
+      color: #ff0000;
+    } 
+  }
+  @-moz-keyframes my { 
+    0% {
+      color: #ff0000;
+    } 
+    50% {
+      color: #ffffff;
+    }
+    100% {
+      color: #ff0000;
+    } 
+  }
+  @-o-keyframes my { 
+    0% {
+      color: #ff0000;
+    } 
+    50% {
+      color: #ffffff;
+    } 
+    100% {
+      color: #ff0000;
+    } 
+  }
+   @keyframes my { 
+     0% {
+      color: #ff0000;
+    } 
+    50% {
+      color: #ffffff;
+    }
+    100% {
+      color: #ff0000;
+    } 
+  }
+
+  .nhapnhay {
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+  }
+
+.nhapnhay{
+    font-size: 40px;
+    border: solid;
+    width: fit-content;
+}
+
+#SEND:hover{
+    background-color: green;
+}
+
+
+#RES:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
